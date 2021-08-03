@@ -4,7 +4,7 @@ import 'app.dart';
 import 'locator.dart';
 
 void main() async {
-  await dotenv.load(fileName: '.env');
+  await dotenv.load(fileName: '.env-example');
   Locator.onLocator();
   runApp(MyApp());
 }
