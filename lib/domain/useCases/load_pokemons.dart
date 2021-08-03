@@ -1,5 +1,5 @@
-import 'package:pokemon_app/domain/entities/pokemon_entity.dart';
+import 'package:pokemon_app/data/models/pokemon_list.dart';
 
-abstract class LoadPokemon {
-  Future<List<PokemonEntity>> load();
+abstract class LoadPokemons {
+  Future<PokemonList> loadList();
 }
